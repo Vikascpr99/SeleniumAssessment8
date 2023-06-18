@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Please enter a valid mobile number (10 digits)]]>
+    </line>
+    <line>
+      <![CDATA[Please enter a valid mobile number (10 digits)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-21T10:42:02 IST" name="Default suite" finished-at="2022-02-21T10:44:06 IST" duration-ms="124487">
+    <groups>
+    </groups>
+    <test started-at="2022-02-21T10:42:02 IST" name="Default test" finished-at="2022-02-21T10:44:06 IST" duration-ms="124487">
+      <class name="Testng.testng">
+        <test-method is-config="true" signature="test1()[pri:0, instance:Testng.testng@4b45a2f5]" started-at="2022-02-21T10:42:02 IST" name="test1" finished-at="2022-02-21T10:42:02 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="edgeBrowser()[pri:0, instance:Testng.testng@4b45a2f5]" started-at="2022-02-21T10:42:02 IST" name="edgeBrowser" finished-at="2022-02-21T10:43:03 IST" duration-ms="61018" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Please enter a valid mobile number (10 digits)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edgeBrowser -->
+        <test-method signature="chromeBrowser()[pri:1, instance:Testng.testng@4b45a2f5]" started-at="2022-02-21T10:43:03 IST" name="chromeBrowser" finished-at="2022-02-21T10:44:05 IST" duration-ms="61844" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Please enter a valid mobile number (10 digits)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chromeBrowser -->
+        <test-method is-config="true" signature="test3()[pri:0, instance:Testng.testng@4b45a2f5]" started-at="2022-02-21T10:44:05 IST" name="test3" finished-at="2022-02-21T10:44:06 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- Testng.testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
